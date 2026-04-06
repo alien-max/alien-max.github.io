@@ -36,6 +36,10 @@
                         <i class="fa-solid fa-envelope"></i>
                         <p class="text-sm">ali.htj98@gmail.com</p>
                     </a>
+                    <a href="tel:+989303156771" class="flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="text-sm">+989303156771</p>
+                    </a>
                     <a href="https://github.com/alien-max" class="flex items-center gap-2">
                         <i class="fa-brands fa-github"></i>
                         <p class="text-sm">github.com/alien-max</p>
@@ -55,6 +59,8 @@
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Django | 3 years</span>
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Next.js | 1 years</span>
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Tailwind CSS | 4 years</span>
+                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">MQL5 | 1 years</span>
+                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Pine Script | 1 years</span>
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Web3 | 1 years</span>
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Solidity | 1 years</span>
                     <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">REST/RESTful APIs | 2 years</span>
@@ -149,17 +155,51 @@
                 <p>Side Projects</p>
             </div>
             <div class="w-full md:w-3/4 mt-4 md:mt-0 text-sm text-[#666]">
-                <p class="text-black mb-1">Maxnet | Multi-Chain NFT Trading Marketplace</p>
-                <a href="https://maxnetnft.com" class="flex text-xs mb-4">maxnetnft.com</a>
-                <p>Maxnet is a web-based marketplace platform for buying, selling, and listing NFTs (non-fungible tokens). It provides users with a digital marketplace interface where approved and verified NFT collections can be viewed and traded. The system handles user wallet connection, network switching, and NFT listing interaction with blockchain smart contracts. The platform supports bundling of multiple NFTs into single transactions for bulk sales and features integrated smart contract approval flows to facilitate asset transfers.</p>
-                <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Next.js</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Solidity</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tailwind CSS</span>
-                    <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
+                <div class="w-full">
+                    <p class="text-black mb-1">Maxnet | Multi-Chain NFT Trading Marketplace</p>
+                    <a href="https://maxnetnft.com" class="flex text-xs mb-4">maxnetnft.com</a>
+                    <p>Maxnet is a web-based marketplace platform for buying, selling, and listing NFTs (non-fungible tokens). It provides users with a digital marketplace interface where approved and verified NFT collections can be viewed and traded. The system handles user wallet connection, network switching, and NFT listing interaction with blockchain smart contracts. The platform supports bundling of multiple NFTs into single transactions for bulk sales and features integrated smart contract approval flows to facilitate asset transfers.</p>
+                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Next.js</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Solidity</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tailwind CSS</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
+                    </div>
+                </div>
+
+                <div class="w-full mt-8">
+                    <p class="text-black mb-4">AI-Based Financial Market Prediction System</p>
+                    <p>Developed a machine learning-based system to predict price movements and trends in financial markets. The project utilized multiple regression and classification models trained on historical price data and technical indicators. The system allowed users to forecast the potential price or directional trend of a financial instrument for specific time horizons such as hourly or daily intervals. Emphasis was placed on model experimentation, feature engineering, and evaluation to improve prediction reliability.</p>
+                    <p>The resulting tool served as a decision-support assistant for trading activities by providing data-driven insights into potential market movements. It helped analyze historical patterns, offered probabilistic forecasts, and supported more informed trading decisions by complementing traditional technical analysis.</p>
+                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Streamlit</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Scikit Learn</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PyTorch</span>
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tensorflow</span>
+                    </div>
+                </div>
+
+                <div class="w-full mt-8">
+                    <p class="text-black mb-4">Automated Trading Bots for MetaTrader 5</p>
+                    <p>Developed multiple automated trading bots for the MetaTrader 5 platform using MQL5. Each bot implemented different trading strategies and supported various financial markets. The systems included extensive risk management and configuration features such as adjustable trade volume, take-profit and stop-loss settings, limits on consecutive wins or losses, daily profit/loss caps relative to initial capital, configurable trading hours, trailing stop mechanisms, and partial take-profit management. Various strategy models were implemented, including EMA crossover, RSI crossover, stochastic crossover, price and volume momentum strategies, and Williams %R range analysis.</p>
+                    <p>The trading bots enabled automated strategy execution with flexible risk control and customizable trading parameters. They reduced the need for manual monitoring, ensured consistent strategy implementation, and provided a structured framework for testing and deploying algorithmic trading strategies in real market conditions.</p>
+                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">MQL5</span>
+                    </div>
+                </div>
+
+                <div class="w-full mt-8">
+                    <p class="text-black mb-1">Algorithmic Trading Strategies in TradingView</p>
+                    <a href="https://www.tradingview.com/u/alien-max/" class="flex text-xs mb-4">tradingview.com/u/alien-max</a>
+                    <p>Developed and published multiple algorithmic trading strategies on TradingView using Pine Script. These strategies implemented various technical analysis models such as EMA crossover, RSI crossover, stochastic signals, momentum-based strategies, and Williams %R indicators. The scripts were designed for chart visualization, strategy backtesting, and performance evaluation using historical market data. Each implementation focused on clear signal generation, configurable parameters, and practical usability for market analysis.</p>
+                    <p>The published strategies provided a practical environment for testing and evaluating trading ideas using TradingView’s built-in backtesting tools. They helped analyze the effectiveness of different technical strategies across various market conditions and served as publicly accessible examples of algorithmic trading logic and strategy implementation.</p>
+                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
+                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Pine Script</span>
+                    </div>
                 </div>
             </div>
         </div>
