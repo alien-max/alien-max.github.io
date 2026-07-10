@@ -14,210 +14,124 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="w-full h-full bg-[#fcfcfc] p-4 font-[Poppins]">
-    <div id="root" class="max-w-[1000px] bg-white shadow-md rounded mx-auto">
-        <div class="w-full h-12 flex items-center border-b border-[#ddd] px-4">
-            <p class="text-xl font-medium">RESUME</p>
-        </div>
-        <div class="w-full flex flex-col md:flex-row border-b border-[#ddd] p-4">
-            <div class="w-full md:w-1/4 flex justify-center">
-                <img src="./profile.png" alt="" class="w-32 h-32 rounded-full object-cover">
-            </div>
-            <div class="w-full md:w-3/4 mt-4 md:mt-0">
-                <div class="w-full flex flex-col items-center md:items-start">
-                    <h1 class="text-2xl font-medium leading-10">Ali Hosseini</h1>
-                    <p class="text-base text-[#666]">Full-Stack Developer</p>
-                </div>
-                <div class="w-full flex flex-col md:flex-row justify-start text-base text-[#666] gap-4 my-4">
-                    <span class="flex items-center gap-2">
-                        <i class="fa-solid fa-calendar"></i>
-                        <p class="text-sm">Jun 1998</p>
-                    </span>
-                    <a href="mailto:ali.htj98@gmail.com" class="flex items-center gap-2">
-                        <i class="fa-solid fa-envelope"></i>
-                        <p class="text-sm">ali.htj98@gmail.com</p>
-                    </a>
-                    <a href="https://wa.me/+989303156771" class="flex items-center gap-2">
-                        <i class="fa-brands fa-whatsapp"></i>
-                        <p class="text-sm">+989303156771</p>
-                    </a>
-                    <a href="https://github.com/alien-max" class="flex items-center gap-2">
-                        <i class="fa-brands fa-github"></i>
-                        <p class="text-sm">github.com/alien-max</p>
-                    </a>
-                </div>
-                <p class="text-sm text-[#666] text-left">I am a full-stack developer with over four years of professional experience specializing in Python and Django. I have a strong background in designing scalable backend systems and developing maintainable, production-ready applications. I am experienced with modern frontend technologies including React, Next.js, and Tailwind CSS, and I am comfortable working across the full software development lifecycle. I value clean architecture, reliability, and clear communication, and I work effectively in remote and distributed team environments.</p>
+    <div id="root" class="max-w-[1000px] bg-white shadow-md rounded mx-auto p-4">
+        <div class="w-full h-32 flex items-center">
+            <img src="./profile.png" alt="" class="w-28 h-28 rounded-full object-cover">
+            <div class="w-full text-green-900 ml-4">
+                <h1 class="text-2xl font-bold mb-2">Ali Hosseini</h1>
+                <p class="text-sm">Full-Stack Developer</p>
+                <a href="mailto:ali.htj98@gmail.com" class="text-sm">ali.htj98@gmail.com</a>
             </div>
         </div>
-        <div class="w-full flex flex-col md:flex-row border-b border-[#ddd] p-4">
-            <div class="w-full md:w-1/4 flex justify-start gap-2">
-                <i class="fa-solid fa-clipboard-check text-xl text-[#666]"></i>
-                <p>Technical Skills</p>
+
+        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
+            <p class="font-semibold">SUMMARY</p>
+        </div>
+        <div class="w-full">
+            <p class="text-sm text-justify">I am a full-stack developer with over +5 years of professional experience building production systems in Python and Django, with a growing focus on applied machine learning. Comfortable owning a project end to end, from Django architecture and data pipelines to training and deploying ML models. I have a strong background in designing scalable backend systems and developing maintainable, production-ready applications.</p>
+        </div>
+
+        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
+            <p class="font-semibold">TECHNICAL SKILLS</p>
+        </div>
+        <div class="w-full flex flex-wrap text-sm mb-2">
+            <div class="w-full md:w-1/5">
+                <p class="font-medium">Core</p>
             </div>
-            <div class="w-full md:w-3/4 mt-4 md:mt-0">
-                <div class="w-full flex flex-wrap gap-4 text-sm text-[#666]">
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Python | 4 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Django | 3 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Next.js | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Tailwind CSS | 4 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">MQL | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Pine Script | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Web3 | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">Solidity | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">REST/RESTful APIs | 2 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">PostgreSQL | 2 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">MySQL | 3 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">PHP | 1 years</span>
-                    <span class="flex justify-center items-center p-2 border border-[#ddd] rounded">WordPress | 4 years</span>
-                </div>
+            <div class="w-full md:w-4/5">
+                <p>Python, Django, REST/FAST/NINJA APIs, PostgreSQL</p>
             </div>
         </div>
-        <div class="w-full flex flex-col md:flex-row border-b border-[#ddd] p-4">
-            <div class="w-full md:w-1/4 flex justify-start gap-2">
-                <i class="fa-solid fa-briefcase text-xl text-[#666]"></i>
-                <p>Work History</p>
+        <div class="w-full flex flex-wrap text-sm mb-2">
+            <div class="w-full md:w-1/5">
+                <p class="font-medium">ML/AI</p>
             </div>
-            <div class="w-full md:w-3/4 mt-4 md:mt-0 border-l border-[#ddd] text-sm text-[#666] pl-4">
-                <p class="text-base text-black">Full-Stack Developer</p>
-                <div class="w-full flex justify-between my-2">
-                    <p>Arad Branding</p>
-                    <p>August 2021 - October 2025</p>
-                </div>
-                <p>Worked as a full-stack developer responsible for designing, building, and maintaining multiple large-scale internal platforms and automation systems.</p>
-                
-                <div class="w-full mt-8">
-                    <p class="text-black mb-4">AI-Powered Content Generation Platform</p>
-                    <p>Designed and developed an internal platform for large-scale content generation using AI. The system automated content creation workflows, reduced manual editorial effort, and supported high-volume publishing across multiple websites. Key responsibilities included backend architecture, content pipeline design, and integration with publishing systems.</p>
-                    <p>The platform was successfully deployed and used in production, significantly reducing manual content creation efforts through automation. It enabled faster content generation at scale and improved overall content workflow efficiency.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tailwind CSS</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-4">Custom Multilingual CMS (Django-based)</p>
-                    <p>Built a fully custom, multilingual content management system to replace WordPress for internal use. The CMS supported role-based access control, multi-language content, custom admin panels, and scalable content workflows. Designed with long-term maintainability and performance in mind.</p>
-                    <p>The CMS was successfully adopted as an internal system, replacing manual and legacy workflows. It provided a stable, scalable solution for managing multilingual content and improved long-term maintainability and performance.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tailwind CSS</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-4">Centralized WordPress Publishing Management Platform</p>
-                    <p>Developed a centralized platform to manage and automate content publishing across hundreds of WordPress websites from a single dashboard. The system handled authentication, scheduling, bulk publishing, and synchronization between sites. This platform significantly reduced operational overhead and human error.</p>
-                    <p>The system streamlined content publishing across hundreds of WordPress websites from a single interface. It reduced operational overhead, minimized human error, and improved consistency and speed of content distribution.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PHP</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Wordpress</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-4">Telegram Advertisement Management Platform</p>
-                    <p>Built a backend system to manage and automate advertisement publishing across multiple Telegram channels. The platform supported campaign scheduling, centralized management, and automated message delivery. Focused on reliability, automation, and scalability.</p>
-                    <p>The platform enabled centralized and automated advertisement management across multiple Telegram channels. It improved reliability, reduced manual coordination, and ensured consistent scheduling and delivery of advertising campaigns.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-1">Custom WordPress Development for Corporate, E-commerce & Multilingual Websites</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mb-4">
-                        <a href="https://fullflaps.pt" class="flex text-xs">FullFlaps.pt</a>
-                        <a href="https://bahreto.com" class="flex text-xs">Bahreto.com</a>
-                        <a href="https://blackwalnut.ir" class="flex text-xs">BlackWalnut.ir</a>
-                    </div>
-                    <p>Designed and developed a variety of WordPress websites including corporate/business sites, WooCommerce-based online stores, and multilingual platforms. Implemented custom themes, advanced plugins, and optimized structures to support dynamic content management, subscription systems, multiple payment gateways, and language-based content delivery.</p>
-                    <p>Successfully delivered tailored WordPress solutions that meet diverse business requirements, from brochure-style corporate websites to fully functional e-commerce stores and multi-language portals, ensuring scalability, user experience, and maintainability.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PHP</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">WordPress</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">WooCommerce</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">MySQL</span>
-                    </div>
-                </div>
-
+            <div class="w-full md:w-4/5">
+                <p>TensorFlow, PyTorch, Scikit-learn, CatBoost, OpenCV, MediaPipe</p>
             </div>
         </div>
-        <div class="w-full flex flex-col md:flex-row border-b border-[#ddd] p-4">
-            <div class="w-full md:w-1/4 flex justify-start gap-2">
-                <i class="fa-solid fa-clipboard-list text-xl text-[#666]"></i>
-                <p>Side Projects</p>
+        <div class="w-full flex flex-wrap text-sm mb-2">
+            <div class="w-full md:w-1/5">
+                <p class="font-medium">Frontend</p>
             </div>
-            <div class="w-full md:w-3/4 mt-4 md:mt-0 text-sm text-[#666]">
-                <div class="w-full">
-                    <p class="text-black mb-1">Maxnet | Multi-Chain NFT Trading Marketplace</p>
-                    <a href="https://maxnetnft.com" class="flex text-xs mb-4">maxnetnft.com</a>
-                    <p>Maxnet is a web-based marketplace platform for buying, selling, and listing NFTs (non-fungible tokens). It provides users with a digital marketplace interface where approved and verified NFT collections can be viewed and traded. The system handles user wallet connection, network switching, and NFT listing interaction with blockchain smart contracts. The platform supports bundling of multiple NFTs into single transactions for bulk sales and features integrated smart contract approval flows to facilitate asset transfers.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Django</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PostgreSQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Next.js</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Solidity</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tailwind CSS</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">REST/RESTful APIs</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-4">AI-Based Financial Market Prediction System</p>
-                    <p>Developed a machine learning-based system to predict price movements and trends in financial markets. The project utilized multiple regression and classification models trained on historical price data and technical indicators. The system allowed users to forecast the potential price or directional trend of a financial instrument for specific time horizons such as hourly or daily intervals. Emphasis was placed on model experimentation, feature engineering, and evaluation to improve prediction reliability.</p>
-                    <p>The resulting tool served as a decision-support assistant for trading activities by providing data-driven insights into potential market movements. It helped analyze historical patterns, offered probabilistic forecasts, and supported more informed trading decisions by complementing traditional technical analysis.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Python</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Streamlit</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Scikit Learn</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">PyTorch</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Tensorflow</span>
-                    </div>
-                </div>
-
-                <div class="w-full mt-8">
-                    <p class="text-black mb-1">Automated Trading Bots</p>
-                    <a href="https://www.tradingview.com/u/alien-max/" class="flex text-xs mb-4">tradingview.com/u/alien-max</a>
-                    <p>Developed multiple automated trading bots for the MetaTrader/TradingView platforms. Each bot implemented different trading strategies and supported various financial markets. The systems included extensive risk management and configuration features such as adjustable trade volume, take-profit and stop-loss settings, limits on consecutive wins or losses, daily profit/loss caps relative to initial capital, configurable trading hours, trailing stop mechanisms, and partial take-profit management. Various strategy models were implemented, including EMA crossover, RSI crossover, stochastic crossover, price and volume momentum strategies, and Williams %R range analysis.</p>
-                    <p>The trading bots enabled automated strategy execution with flexible risk control and customizable trading parameters. They reduced the need for manual monitoring, ensured consistent strategy implementation, and provided a structured framework for testing and deploying algorithmic trading strategies in real market conditions.</p>
-                    <div class="w-full flex flex-wrap gap-2 text-xs mt-4">
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">MQL</span>
-                        <span class="flex justify-center items-center p-1 border border-[#ddd] rounded">Pine Script</span>
-                    </div>
-                </div>
+            <div class="w-full md:w-4/5">
+                <p>Tailwind CSS, JavaScript</p>
             </div>
         </div>
-        <div class="w-full flex flex-col md:flex-row border-b border-[#ddd] p-4">
-            <div class="w-full md:w-1/4 flex justify-start gap-2">
-                <i class="fa-solid fa-graduation-cap text-xl text-[#666]"></i>
-                <p>Education</p>
+        <div class="w-full flex flex-wrap text-sm">
+            <div class="w-full md:w-1/5">
+                <p class="font-medium">Also worked with</p>
             </div>
-            <div class="w-full md:w-3/4 mt-4 md:mt-0 text-sm text-[#666]">
-                <p class="text-base text-black">Master of Science in Software engineering</p>
-                <div class="w-full flex flex-col md:flex-row justify-start md:justify-between mt-2 mb-8">
-                    <p>Shahab Danesh University</p>
-                    <p>September 2022 - September 2025</p>
-                </div>
-                <p class="text-base text-black">Bachelor of Science in Computer engineering</p>
-                <div class="w-full flex flex-col md:flex-row justify-start md:justify-between mt-2 mb-8">
-                    <p>Payam Noor University</p>
-                    <p>September 2017 - September 2022</p>
-                </div>
+            <div class="w-full md:w-4/5">
+                <p>Solidity/Web3, WordPress/PHP, MQL/Pine Script</p>
             </div>
+        </div>
+
+        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
+            <p class="font-semibold">PROJECTS</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Maxnet</p>
+            <p class="text-justify mb-2">Maxnet is a web-based marketplace platform for buying, selling, and listing NFTs (non-fungible tokens). It provides users with a digital marketplace interface where approved and verified NFT collections can be viewed and traded. The system handles user wallet connection, network switching, and NFT listing interaction with blockchain smart contracts. The platform supports bundling of multiple NFTs into single transactions for bulk sales and features integrated smart contract approval flows to facilitate asset transfers.</p>
+            <a href="https://maxnetnft.com/" class="text-green-900 italic mb-2 underline">maxnetnft.com</a>
+            <p class="text-green-900 italic">Python . Django . PostgreSQL . Solidity . Javascript . Tailwind CSS</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">AI-Powered Content Generation Platform</p>
+            <p class="text-justify mb-2">Designed and developed an internal platform for large-scale content generation using AI. The system automated content creation workflows, reduced manual editorial effort, and supported high-volume publishing across multiple websites. Key responsibilities included backend architecture, content pipeline design, and integration with publishing systems.</p>
+            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Custom Multilingual CMS</p>
+            <p class="text-justify mb-2">Built a fully custom, multilingual content management system to replace WordPress for internal use. The CMS supported role-based access control, multi-language content, custom admin panels, and scalable content workflows. Designed with long-term maintainability and performance in mind.</p>
+            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Centralized Publishing & Advertising Platforms</p>
+            <p class="text-justify mb-2">Developed a centralized platform to manage and automate content publishing across hundreds of WordPress websites from a single dashboard. The system handled authentication, scheduling, bulk publishing, and synchronization between sites. Built a backend system to manage and automate advertisement publishing across multiple Telegram channels. The platform supported campaign scheduling, centralized management, and automated message delivery. Focused on reliability, automation, and scalability.</p>
+            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
+        </div>
+
+        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
+            <p class="font-semibold">SIDE PROJECTS</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Sanalyze</p>
+            <p class="text-justify mb-2">Built a machine learning system forecasting price and directional trends across stocks, crypto, and forex. Combines 10 regression and classification models (Decision Tree, Random Forest, AdaBoost, CatBoost, SVR/SVC) with 30+ engineered technical indicators, presented through an interactive dashboard with ensemble consensus and confidence bands. Emphasis on feature engineering and model evaluation to improve prediction reliability.</p>
+            <a href="https://github.com/alien-max/Sanalyze" class="text-green-900 italic mb-2 underline">Sanalyze</a>
+            <p class="text-green-900 italic">Python . Streamlit . Scikit-learn . CatBoost . Plotly</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Camshot</p>
+            <p class="text-justify mb-2">Built a real-time computer vision application detecting up to 4 faces with gender/age estimation, blink counting via Eye Aspect Ratio, and 478-point face mesh overlay. Added hand tracking with a custom distance-based algorithm for reliable finger counting regardless of hand orientation, replacing a naive angle-based approach.</p>
+            <a href="https://github.com/alien-max/Camshot" class="text-green-900 italic mb-2 underline">Camshot</a>
+            <p class="text-green-900 italic">Python . PySide6 . MediaPipe . OpenCV</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Wallet Manager</p>
+            <p class="text-justify mb-2">Built an offline Python CLI tool for managing EVM wallets using the Ethereum Keystore v3 standard. You can add or remove as many networks as you want. One wallet (one address + one key) works on all of EVM-compatible networks, you just choose the network you want when receiving balance or transferring.</p>
+            <a href="https://github.com/alien-max/Wallet" class="text-green-900 italic mb-2 underline">Wallet Manager</a>
+            <p class="text-green-900 italic">Python</p>
+        </div>
+        <div class="w-full text-sm">
+            <p class="text-base font-semibold mb-2">WordPress Development</p>
+            <p class="text-justify mb-2">Designed and developed a variety of WordPress websites including corporate/business sites, WooCommerce-based online stores, and multilingual platforms. Implemented custom themes, advanced plugins, and optimized structures to support dynamic content management, subscription systems, multiple payment gateways, and language-based content delivery. Published a WordPress theme for the Elementor page builder.</p>
+            <a href="https://github.com/alien-max/ITNode" class="text-green-900 italic mb-2 underline">ITNode</a>
+            <p class="text-green-900 italic">Wordpress . PHP</p>
+        </div>
+
+        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
+            <p class="font-semibold">EDUCATION</p>
+        </div>
+        <div class="w-full text-sm mb-4">
+            <p class="text-base font-semibold mb-2">Master of Science in Software engineering</p>
+            <p class="mb-2">Shahab Danesh University</p>
+            <p class="text-green-900 italic">September 2022 - September 2025</p>
+        </div>
+        <div class="w-full text-sm">
+            <p class="text-base font-semibold mb-2">Bachelor of Science in Computer engineering</p>
+            <p class="mb-2">Payam Noor University</p>
+            <p class="text-green-900 italic">September 2017 - September 2022</p>
         </div>
     </div>
 </body>
