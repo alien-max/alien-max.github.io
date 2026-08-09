@@ -3,136 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ali Hosseini</title>
+    <title>Ali Hosseini — Machine Learning Engineer</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,600&amp;display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap">
+
+    <style>
+        :root{
+            --ink:#17212b;
+            --ink-soft:#3f4b56;
+            --accent:#1f6f78;
+            --accent-soft:#5c8b8f;
+            --rule:#d7dce0;
+            --bg:#f7f8f7;
+        }
+        body{ background:var(--bg); }
+        .serif{ font-family:'Source Serif 4', serif; }
+        .sans{ font-family:'Inter', sans-serif; }
+        .section-label{
+            font-family:'Inter', sans-serif;
+            font-size:11px;
+            font-weight:600;
+            letter-spacing:.14em;
+            color:var(--accent);
+        }
+        .rule{ border-color:var(--rule); }
+    </style>
 </head>
-<body class="w-full h-full bg-[#fcfcfc] p-4 font-[Poppins]">
-    <div id="root" class="max-w-[1000px] bg-white shadow-md rounded mx-auto p-4">
-        <div class="w-full h-52 md:h-32 flex flex-col md:flex-row items-center gap-4">
-            <img src="./profile.png" alt="" class="w-28 h-28 rounded-full object-cover">
-            <div class="w-full flex flex-col items-center md:items-start text-green-900">
-                <h1 class="text-2xl font-bold mb-2">Ali Hosseini</h1>
-                <p class="text-sm">Full-Stack Developer</p>
-                <a href="mailto:ali.htj98@gmail.com" class="text-sm">ali.htj98@gmail.com</a>
+<body class="w-full h-full p-4 sans">
+    <div id="root" class="max-w-[860px] bg-white shadow-sm rounded mx-auto px-10 py-10" style="color:var(--ink)">
+
+        <div class="w-full flex flex-col md:flex-row items-start md:items-center gap-6 pb-6 border-b" style="border-color:var(--rule)">
+            <img src="./profile.png" alt="" class="w-24 h-24 rounded-full object-cover">
+            <div class="w-full">
+                <h1 class="serif text-3xl font-semibold tracking-tight">Ali Hosseini</h1>
+                <p class="text-sm mt-1" style="color:var(--accent)">Machine Learning &amp; Backend Engineer</p>
+                <div class="flex flex-wrap gap-x-4 gap-y-1 mt-2 text-xs" style="color:var(--ink-soft)">
+                    <a href="mailto:ali.htj98@gmail.com" class="hover:underline">ali.htj98@gmail.com</a>
+                    <span>Python · Django · Machine Learning</span>
+                </div>
             </div>
         </div>
 
-        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
-            <p class="font-semibold">SUMMARY</p>
-        </div>
-        <div class="w-full">
-            <p class="text-sm text-justify">I am a full-stack developer with over +5 years of professional experience building production systems in Python and Django, with a growing focus on applied machine learning. Comfortable owning a project end to end, from Django architecture and data pipelines to training and deploying ML models. I have a strong background in designing scalable backend systems and developing maintainable, production-ready applications.</p>
+        <div class="mt-6">
+            <p class="section-label mb-2">SUMMARY</p>
+            <p class="text-sm leading-relaxed" style="color:var(--ink-soft)">
+                Backend engineer with 5+ years of production experience in Python and Django, focused on applied machine learning. Experienced across the full ML lifecycle, data pipelines, feature engineering, model training and evaluation, and production deployment, with particular depth in computer vision, neural networks, and time-series prediction systems.
+            </p>
         </div>
 
-        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
-            <p class="font-semibold">TECHNICAL SKILLS</p>
-        </div>
-        <div class="w-full flex flex-wrap text-sm mb-2">
-            <div class="w-full md:w-1/5">
-                <p class="font-medium">Core</p>
-            </div>
-            <div class="w-full md:w-4/5">
-                <p>Python, Django, REST/FAST/NINJA APIs, PostgreSQL</p>
-            </div>
-        </div>
-        <div class="w-full flex flex-wrap text-sm mb-2">
-            <div class="w-full md:w-1/5">
-                <p class="font-medium">ML/AI</p>
-            </div>
-            <div class="w-full md:w-4/5">
-                <p>TensorFlow, PyTorch, Scikit-learn, CatBoost, OpenCV, MediaPipe</p>
-            </div>
-        </div>
-        <div class="w-full flex flex-wrap text-sm mb-2">
-            <div class="w-full md:w-1/5">
-                <p class="font-medium">Frontend</p>
-            </div>
-            <div class="w-full md:w-4/5">
-                <p>Tailwind CSS, JavaScript</p>
-            </div>
-        </div>
-        <div class="w-full flex flex-wrap text-sm">
-            <div class="w-full md:w-1/5">
-                <p class="font-medium">Also worked with</p>
-            </div>
-            <div class="w-full md:w-4/5">
-                <p>Solidity/Web3, WordPress/PHP, MQL/Pine Script</p>
+        <div class="mt-6">
+            <p class="section-label mb-3">TECHNICAL SKILLS</p>
+            <div class="grid grid-cols-1 gap-2 text-sm">
+                <div class="flex gap-4">
+                    <p class="w-32 shrink-0 font-medium">Machine Learning</p>
+                    <p style="color:var(--ink-soft)">TensorFlow, PyTorch, Scikit-learn, CatBoost, Neural Networks, Computer Vision</p>
+                </div>
+                <div class="flex gap-4">
+                    <p class="w-32 shrink-0 font-medium">Vision &amp; Data</p>
+                    <p style="color:var(--ink-soft)">OpenCV, MediaPipe, Feature Engineering, Data Pipelines</p>
+                </div>
+                <div class="flex gap-4">
+                    <p class="w-32 shrink-0 font-medium">Backend</p>
+                    <p style="color:var(--ink-soft)">Python, Django, REST / FastAPI / Ninja, PostgreSQL</p>
+                </div>
+                <div class="flex gap-4">
+                    <p class="w-32 shrink-0 font-medium">Frontend</p>
+                    <p style="color:var(--ink-soft)">JavaScript, Tailwind CSS</p>
+                </div>
+                <div class="flex gap-4">
+                    <p class="w-32 shrink-0 font-medium">Also</p>
+                    <p style="color:var(--ink-soft)">Solidity / Web3, WordPress / PHP, MQL / Pine Script</p>
+                </div>
             </div>
         </div>
 
-        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
-            <p class="font-semibold">PROJECTS</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Maxnet</p>
-            <p class="text-justify mb-2">Maxnet is a web-based marketplace platform for buying, selling, and listing NFTs (non-fungible tokens). It provides users with a digital marketplace interface where approved and verified NFT collections can be viewed and traded. The system handles user wallet connection, network switching, and NFT listing interaction with blockchain smart contracts. The platform supports bundling of multiple NFTs into single transactions for bulk sales and features integrated smart contract approval flows to facilitate asset transfers.</p>
-            <a href="https://maxnetnft.com/" class="text-green-900 italic mb-2 underline">maxnetnft.com</a>
-            <p class="text-green-900 italic">Python . Django . PostgreSQL . Solidity . Javascript . Tailwind CSS</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">AI-Powered Content Generation Platform</p>
-            <p class="text-justify mb-2">Designed and developed an internal platform for large-scale content generation using AI. The system automated content creation workflows, reduced manual editorial effort, and supported high-volume publishing across multiple websites. Key responsibilities included backend architecture, content pipeline design, and integration with publishing systems.</p>
-            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Custom Multilingual CMS</p>
-            <p class="text-justify mb-2">Built a fully custom, multilingual content management system to replace WordPress for internal use. The CMS supported role-based access control, multi-language content, custom admin panels, and scalable content workflows. Designed with long-term maintainability and performance in mind.</p>
-            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Centralized Publishing & Advertising Platforms</p>
-            <p class="text-justify mb-2">Developed a centralized platform to manage and automate content publishing across hundreds of WordPress websites from a single dashboard. The system handled authentication, scheduling, bulk publishing, and synchronization between sites. Built a backend system to manage and automate advertisement publishing across multiple Telegram channels. The platform supported campaign scheduling, centralized management, and automated message delivery. Focused on reliability, automation, and scalability.</p>
-            <p class="text-green-900 italic">Python . Django . PostgreSQL . Javascript . Tailwind CSS</p>
+        <div class="mt-6">
+            <p class="section-label mb-3">MACHINE LEARNING &amp; DATA PROJECTS</p>
+
+            <div class="text-sm mb-4">
+                <div class="flex items-baseline justify-between">
+                    <p class="font-semibold">Sanalyze — Multi-Model Market Forecasting</p>
+                </div>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Forecasting system for price and directional trends across stocks, crypto, and forex. Combines 10 regression and classification models (Decision Tree, Random Forest, AdaBoost, CatBoost, SVR/SVC) with 30+ engineered technical indicators, exposed through an interactive dashboard with ensemble consensus and confidence bands.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · Scikit-learn · CatBoost · Streamlit · Plotly</p>
+            </div>
+
+            <div class="text-sm mb-4">
+                <p class="font-semibold">Camshot — Real-Time Computer Vision Suite</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Real-time application detecting up to 4 faces simultaneously with gender/age estimation, blink counting via Eye Aspect Ratio, and a 478-point face mesh overlay. Implemented a custom distance-based hand-tracking algorithm for orientation-independent finger counting, replacing a naive angle-based approach.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · OpenCV · MediaPipe · PySide6</p>
+            </div>
+
+            <div class="text-sm">
+                <p class="font-semibold">AI-Powered Content Generation Platform</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Internal platform automating large-scale content generation with AI, supporting high-volume publishing across multiple sites. Owned backend architecture, content pipeline design, and integration with downstream publishing systems.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · Django · PostgreSQL</p>
+            </div>
         </div>
 
-        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
-            <p class="font-semibold">SIDE PROJECTS</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Sanalyze</p>
-            <p class="text-justify mb-2">Built a machine learning system forecasting price and directional trends across stocks, crypto, and forex. Combines 10 regression and classification models (Decision Tree, Random Forest, AdaBoost, CatBoost, SVR/SVC) with 30+ engineered technical indicators, presented through an interactive dashboard with ensemble consensus and confidence bands. Emphasis on feature engineering and model evaluation to improve prediction reliability.</p>
-            <a href="https://github.com/alien-max/Sanalyze" class="text-green-900 italic mb-2 underline">Sanalyze</a>
-            <p class="text-green-900 italic">Python . Streamlit . Scikit-learn . CatBoost . Plotly</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Camshot</p>
-            <p class="text-justify mb-2">Built a real-time computer vision application detecting up to 4 faces with gender/age estimation, blink counting via Eye Aspect Ratio, and 478-point face mesh overlay. Added hand tracking with a custom distance-based algorithm for reliable finger counting regardless of hand orientation, replacing a naive angle-based approach.</p>
-            <a href="https://github.com/alien-max/Camshot" class="text-green-900 italic mb-2 underline">Camshot</a>
-            <p class="text-green-900 italic">Python . PySide6 . MediaPipe . OpenCV</p>
-        </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Wallet Manager</p>
-            <p class="text-justify mb-2">Built an offline Python CLI tool for managing EVM wallets using the Ethereum Keystore v3 standard. You can add or remove as many networks as you want. One wallet (one address + one key) works on all of EVM-compatible networks, you just choose the network you want when receiving balance or transferring.</p>
-            <a href="https://github.com/alien-max/Wallet" class="text-green-900 italic mb-2 underline">Wallet Manager</a>
-            <p class="text-green-900 italic">Python</p>
-        </div>
-        <div class="w-full text-sm">
-            <p class="text-base font-semibold mb-2">WordPress Development</p>
-            <p class="text-justify mb-2">Designed and developed a variety of WordPress websites including corporate/business sites, WooCommerce-based online stores, and multilingual platforms. Implemented custom themes, advanced plugins, and optimized structures to support dynamic content management, subscription systems, multiple payment gateways, and language-based content delivery. Published a WordPress theme for the Elementor page builder.</p>
-            <a href="https://github.com/alien-max/ITNode" class="text-green-900 italic mb-2 underline">ITNode</a>
-            <p class="text-green-900 italic">Wordpress . PHP</p>
+        <div class="mt-6">
+            <p class="section-label mb-3">BACKEND &amp; PLATFORM PROJECTS</p>
+
+            <div class="text-sm mb-3">
+                <p class="font-semibold">Maxnet — NFT Marketplace</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Marketplace for buying, selling, and listing verified NFT collections, with wallet connection, network switching, bundled listings, and smart-contract approval flows.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · Django · PostgreSQL · Solidity</p>
+            </div>
+
+            <div class="text-sm mb-3">
+                <p class="font-semibold">Custom Multilingual CMS</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    In-house CMS replacing WordPress, with role-based access control, multi-language content, and custom admin workflows built for long-term maintainability.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · Django · PostgreSQL</p>
+            </div>
+
+            <div class="text-sm mb-3">
+                <p class="font-semibold">Centralized Publishing &amp; Advertising Platforms</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Centralized dashboard automating publishing across hundreds of WordPress sites, plus a scheduling and delivery system for advertising campaigns across Telegram channels.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python · Django · PostgreSQL</p>
+            </div>
+
+            <div class="text-sm mb-3">
+                <p class="font-semibold">Wallet Manager — Offline EVM Wallet CLI</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Offline CLI tool managing EVM wallets under the Ethereum Keystore v3 standard, with configurable multi-network support from a single address/key pair.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">Python</p>
+            </div>
+
+            <div class="text-sm">
+                <p class="font-semibold">WordPress Development</p>
+                <p class="mt-1 leading-relaxed" style="color:var(--ink-soft)">
+                    Corporate, WooCommerce, and multilingual WordPress sites with custom themes and plugins; published a commercial Elementor theme.
+                </p>
+                <p class="text-xs italic mt-1" style="color:var(--accent-soft)">WordPress · PHP</p>
+            </div>
         </div>
 
-        <div class="w-full flex items-center text-green-900 border-b border-green-900 py-2 my-4">
-            <p class="font-semibold">EDUCATION</p>
+        <div class="mt-6 pt-2">
+            <p class="section-label mb-3">EDUCATION</p>
+            <div class="text-sm mb-2 flex items-baseline justify-between">
+                <div>
+                    <p class="font-semibold">M.Sc. Software Engineering</p>
+                    <p style="color:var(--ink-soft)">Shahab Danesh University</p>
+                </div>
+                <p class="text-xs italic" style="color:var(--accent-soft)">2022 - 2025</p>
+            </div>
+            <div class="text-sm flex items-baseline justify-between">
+                <div>
+                    <p class="font-semibold">B.Sc. Computer Engineering</p>
+                    <p style="color:var(--ink-soft)">Payam Noor University</p>
+                </div>
+                <p class="text-xs italic" style="color:var(--accent-soft)">2017 - 2022</p>
+            </div>
         </div>
-        <div class="w-full text-sm mb-4">
-            <p class="text-base font-semibold mb-2">Master of Science in Software engineering</p>
-            <p class="mb-2">Shahab Danesh University</p>
-            <p class="text-green-900 italic">September 2022 - September 2025</p>
-        </div>
-        <div class="w-full text-sm">
-            <p class="text-base font-semibold mb-2">Bachelor of Science in Computer engineering</p>
-            <p class="mb-2">Payam Noor University</p>
-            <p class="text-green-900 italic">September 2017 - September 2022</p>
-        </div>
+
     </div>
 </body>
 </html>
